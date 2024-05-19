@@ -1,10 +1,10 @@
 package com.example.project.demo.Machine;
 
-import com.example.project.demo.entity.Employees;
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import lombok.*;
-
-import java.util.Set;
 
 @Entity
 @Getter
@@ -26,7 +26,7 @@ public class MachineEntity {
 //    @Column(name = "imagedata",length = 1000)
 //    private byte[] imageData;
 
-    @OneToMany(mappedBy = "machineEntity")
-    private Set<Employees> employees;
+//    @OneToMany(mappedBy = "machineEntity")
+//    private Set<Employees> employees;
 
 }
