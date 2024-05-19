@@ -1,7 +1,5 @@
 package com.example.project.demo.Machine;
 
-import com.example.project.demo.invoice.InvoiceEntity;
-import com.example.project.demo.invoice.InvoiceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

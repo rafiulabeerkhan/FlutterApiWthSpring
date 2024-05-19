@@ -1,5 +1,6 @@
 package com.example.project.demo.entity;
 
+
 import com.example.project.demo.Machine.MachineEntity;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

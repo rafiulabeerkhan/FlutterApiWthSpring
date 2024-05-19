@@ -22,9 +22,9 @@ public class MachineEntity {
     private String status;
     private Long pmProduction;
     private String employeeID;
-    @Lob
-    @Column(name = "imagedata",length = 1000)
-    private byte[] imageData;
+//  @Lob
+//    @Column(name = "imagedata",length = 1000)
+//    private byte[] imageData;
 
     @OneToMany(mappedBy = "machineEntity")
     private Set<Employees> employees;
